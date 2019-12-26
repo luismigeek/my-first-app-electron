@@ -1,0 +1,24 @@
+{
+  "name": "product-electron-app",
+  "productName": "Product Electron App",
+  "description": "Aplicacion para registrar productos",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "package": "",
+    "build": "electron-packager . products-app --overwrite"
+  },
+  "keywords": [],
+  "author": "Luis Miguel Naranjo Pastrana <luismiguelnaranjop@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "electron-reload": "^1.5.0"
+  },
+  "devDependencies": {
+    "asar": "^2.0.3",
+    "electron": "^7.1.7",
+    "electron-packager": "^14.1.1",
+    "electron-winstaller": "^4.0.0"
+  }
+}
